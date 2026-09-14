@@ -8,5 +8,42 @@ li {
 }
 .container {
     display: flex;
+    justify-content: space-evenly;
+}
 
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 250px;
+    background-color: aqua;
+
+}
+
+.top-left-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navhome {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.nav-menu li {
+    padding-bottom: 10px;
+}
+.right-section {
+    flex-basis: auto;
+    background-color: beige;
+}
+
+.left-section p {
+    width: 165px;
+    padding-left: 15px;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: column;
 }
