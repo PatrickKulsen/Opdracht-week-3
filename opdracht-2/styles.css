@@ -47,3 +47,10 @@ li {
     display: flex;
     flex-direction: column;
 }
+.bottom-left-section {
+    display: flex;
+    flex-direction: column;
+}
+.right-section header {
+    background-image: href="../assets/placeholder-image.svg";
+}
